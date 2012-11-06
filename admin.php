@@ -3,7 +3,7 @@
 /**
  * Throw this in your wp-config.php to disable file editors.
  */
-define( 'DISALLOW_FILE_EDIT', true
+define( 'DISALLOW_FILE_EDIT', true);
 
 /**
  * function my_alert
