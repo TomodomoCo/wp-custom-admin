@@ -31,12 +31,12 @@ function my_blog_rss_output() {
 	echo '<div class="rss-widget">';
 
 	wp_widget_rss_output( array(
-		'url' 			=> 'http://www.website.com/path/to/feed/',
-		'title' 		=> 'Widget Title',
-		'items' 		=> 2, // Number of items to display
-		'show_summary' 	=> 1, // Boolean: show article excerpt
-		'show_author' 	=> 1, // Boolean: show article author
-		'show_date' 	=> 1, // Boolean: show article date
+		'url'          => 'http://www.website.com/path/to/feed/',
+		'title'        => 'Widget Title',
+		'items'        => 2, // Number of items to display
+		'show_summary' => 1, // Boolean: show article excerpt
+		'show_author'  => 1, // Boolean: show article author
+		'show_date'    => 1, // Boolean: show article date
 	) );
 
 	echo "</div>";
