@@ -10,7 +10,7 @@
  * @since 1.0
  */
 function my_login_css() {
-	echo '<link rel="stylesheet" type="text/css" href="http://cdn.vanpattenmedia.com/js/libs/formalize/1.2/css/formalize.css" />';
+	echo '<link rel="stylesheet" type="text/css" href="/path/to/style.css" />';
 }
 add_action('login_head', 'my_login_css');
 
