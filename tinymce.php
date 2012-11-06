@@ -55,3 +55,52 @@ function my_mce_buttons_2( $buttons ) {
 	); */
 }
 add_filter('mce_buttons_2', 'my_mce_buttons_2', 0);
+
+/**
+ * function my_mce
+ * Set custom styles and settings
+ *
+ * @since 1.0
+ */
+function my_mce( $settings ) {
+
+	/**
+	 * Set custom style formats in the style selector
+	 * Read more: http://www.vanpattenmedia.com/2012/tinymce-wordpress-style-selector/
+	 */
+	$style_formats = array(
+		array(
+			'title'   => 'Pull Quote',
+			'block'   => 'aside',
+			'classes' => 'pull-quote',
+			'wrapper' => true,
+			'styles'  => array(
+				'float'      => 'right',
+				'width'      => '40%',
+				'borderLeft' => '4px solid black',
+				'margin'     => '0 0 0 20px',
+				'padding'    => '0 0 0 15px',
+				'fontStyle'  => 'italic'
+			)
+		),
+		array(
+			'title'    => 'Call to action',
+			'selector' => 'div',
+			'classes'  => 'cta-main',
+			'wrapper'  => true,
+		)
+	);
+	$settings['style_formats'] = json_encode( $style_formats );
+
+	/**
+	 * Determine which elements appear in the Format selector
+	 * This option shows only `<h3>` enabled.
+	 */
+	$settings['theme_advanced_blockformats'] = 'h3';
+
+	/**
+	 * Return the settings to TinyMCE
+	 */
+	return $settings;
+}
+add_filter( 'tiny_mce_before_init', 'my_mce' );
