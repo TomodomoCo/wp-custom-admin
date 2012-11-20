@@ -20,7 +20,7 @@ Please include a PHP docblock following this format:
  * Your function in a nutshell
  *
  * Optional longer description; this can span multiple
- * lines but please be kind a wrap them manually.
+ * lines but please be kind and wrap them manually.
  *
  * @author Your Github user name, if you're contributing new code
  * @link A URL, if you're contributing an existing snippet
