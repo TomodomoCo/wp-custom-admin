@@ -5,9 +5,29 @@ wp-custom-admin
 
 These should be placed in a `functions.php` file, a plugin, or a must-use plugin. Decide at your own discretion.
 
-If you have your own cool code samples to submit, add them to the appropriate file (with a PHP doc-block of some sort) and submit a pull request. I'd love to see this repository grow.
-
 [See the slides that inspired the repo.](https://speakerdeck.com/chrisvanpatten/developing-a-client-focused-admin-panel)
+
+Contibuting
+---
+
+If you have your own cool code samples to submit, add them to the appropriate file and submit a pull request. I'd love to see this repository grow.
+
+Please include a PHP docblock following this format:
+
+```php
+/**
+ * function my_function_name
+ * Your function in a nutshell
+ *
+ * Optional longer description; this can span multiple
+ * lines but please be kind a wrap them manually.
+ *
+ * @author Your Github user name, if you're contributing new code
+ * @link A URL, if you're contributing an existing snippet
+ */
+```
+
+Please make sure to keep your code within the [WordPress Coding Standards](http://make.wordpress.org/core/handbook/coding-standards/). It keeps things legible and more consistent as this code gets moved between projects.
 
 License
 ---

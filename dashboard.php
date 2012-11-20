@@ -4,7 +4,7 @@
  * function my_remove_dashboard_widgets
  * Unset dashboard widgets
  *
- * @since 1.0
+ * @author chrisvanpatten
  */
 function my_remove_dashboard_widgets() {
 	// Left column
@@ -25,7 +25,7 @@ add_action('wp_dashboard_setup', 'my_remove_dashboard_widgets' );
  * function my_blog_rss_output
  * Build an RSS feed widget
  *
- * @since 1.0
+ * @author chrisvanpatten
  */
 function my_blog_rss_output() {
 	echo '<div class="rss-widget">';
@@ -46,7 +46,7 @@ function my_blog_rss_output() {
  * function my_blog_rss_widget
  * Display the RSS widget you built above
  *
- * @since 1.0
+ * @author chrisvanpatten
  */
 function my_blog_rss_widget() {
 	add_meta_box( 'my-blog-rss', 'Widget Title', 'my_blog_rss_output', 'dashboard', 'side', 'high' );
@@ -56,9 +56,8 @@ add_action('wp_dashboard_setup', 'my_blog_rss_widget');
 /**
  * function my_custom_right_now_widget
  * Add Custom Post Types and Taxonomies to the 'Right Now' Dashboard Widget
- * Source: http://wpsnipp.com/index.php/functions-php/include-custom-post-types-in-right-now-admin-dashboard-widget/
  *
- *
+ * @link http://wpsnipp.com/index.php/functions-php/include-custom-post-types-in-right-now-admin-dashboard-widget/
  */
 function my_custom_right_now_widget() {
 	$args = array(
