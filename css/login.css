@@ -1,0 +1,53 @@
+/*
+ * wp-custom-admin
+ *
+ * Custom Boilerplate CSS for your WordPress Login Form
+ * @since : 1.6
+ *
+ * @authors : chrisvanpatten and grayghostvisuals
+ */
+
+
+/* Main Body */
+body.login {}
+
+
+/* login page links */
+.login #login a {}
+.login #login a:hover {}
+
+
+/* login logo */
+.login h1 {}
+.login h1 a {}
+
+
+/* login page primary button */
+.login .button-primary {}
+.login .button-primary:hover {}
+
+
+/* login page form */
+.login form {}
+
+
+/* login form labels */
+.login label {}
+
+
+/* login page form text and password inputs */
+.login input {}
+.login form input[type="text"] {}
+.login form input[type="password"] {}
+
+
+/* login form notification message */
+.login .message {}
+
+/* login form error message */
+#login  #login_error {}
+
+
+/* login page nav and back to blog links */
+.login #nav {}
+.login #backtoblog {}
