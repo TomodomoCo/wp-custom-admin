@@ -9,11 +9,10 @@
 
 
 /* Main Body */
-.login {}
+body.login {}
 
 
 /* login page links */
-.login a {}
 .login #login a {}
 .login #login a:hover {}
 
@@ -21,10 +20,6 @@
 /* login logo */
 .login h1 {}
 .login h1 a {}
-
-
-/* Form Button */
-.login .button-primary {}
 
 
 /* login page primary button */
@@ -37,7 +32,7 @@
 
 
 /* login form labels */
-body.login label {}
+.login label {}
 
 
 /* login page form text and password inputs */
@@ -46,11 +41,11 @@ body.login label {}
 .login form input[type="password"] {}
 
 
-/* login form notification messages */
+/* login form notification message */
 .login .message {}
 
-/* login form error messages */
-.login #login  #login_error {}
+/* login form error message */
+#login  #login_error {}
 
 
 /* login page nav and back to blog links */
