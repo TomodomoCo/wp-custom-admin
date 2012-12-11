@@ -7,7 +7,7 @@ These should be placed in a `functions.php` file, a plugin, or a must-use plugin
 
 [See the slides that inspired the repo.](https://speakerdeck.com/chrisvanpatten/developing-a-client-focused-admin-panel)
 
-Contibuting
+Contributing
 ---
 
 If you have your own cool code samples to submit, add them to the appropriate file and submit a pull request. I'd love to see this repository grow.
