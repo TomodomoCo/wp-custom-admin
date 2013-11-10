@@ -44,7 +44,7 @@
     
     <!-- Ping Back
 	================================================== -->
-    <link rel="pingback" href="<?php echo get_option('siteurl') .'/xmlrpc.php';?>" />
+    <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
     
     <!-- Wordpress Header
 	================================================== -->
