@@ -42,6 +42,9 @@
 	<link rel="apple-touch-icon" sizes="72x72" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-72x72.png" />
 	<link rel="apple-touch-icon" sizes="114x114" href="<?php echo get_template_directory_uri(); ?>/images/apple-touch-icon-114x114.png" />
     
+    <!-- Ping Back
+	================================================== -->
+    <link rel="pingback" href="<?php echo get_option('siteurl') .'/xmlrpc.php';?>" />
     
     <!-- Wordpress Header
 	================================================== -->
