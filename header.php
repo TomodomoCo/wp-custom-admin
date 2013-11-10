@@ -67,7 +67,7 @@
 </div>
 <nav class="offset-by-four">
 <div id="nav">
-<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false ) ); ?>
+<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'menu_class' => 'bottom-links' ) ); ?>
 </div>
 </nav>
 <div class="search">
