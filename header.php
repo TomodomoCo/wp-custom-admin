@@ -14,7 +14,7 @@
 	<!-- Basic Page Needs
   ================================================== -->
 	<meta charset="utf-8" />
-	<title><?php wp_title('|',true,'right'); ?><?php bloginfo('name'); ?></title>
+	<title><?php wp_title('|',true,'right'); ?><?php bloginfo('name'); ?><?php if(is_home() || is_front_page()){ ?> | <?php bloginfo('description'); ?><?php } ?></title>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
 	<meta name="description" content="<?php bloginfo('description'); ?>" />
 	<meta name="author" content="Kennedy Osemede,Olanipekun Femi, Ennovate Nigeria" />
