@@ -109,4 +109,34 @@ function new_excerpt_more($more) {
 }
 add_filter('excerpt_more', 'new_excerpt_more');
 
+
+/**
+ * function variable excerpt
+ * Vary the lenght of excerpts for a post. must be used within a loop. 
+ * 
+ * */
+ function excerpt($lenght = 300){
+    $rawcontent = get_the_content();
+    $treatcontent = strip_tags($rawcontent);
+    $content = substr($treatcontent,0,$lenght);
+    return $content;
+ }
+ 
+ /**
+ * function variable excerpt
+ * Add appropriate more link. must be used within a loop. 
+ * 
+ * */
+ function more($class = ""){
+    return '<a class="more '.$class.'" href="'. get_permalink() . '">READ MORE</a>';
+ }
+ 
+ /**
+  * function get page id with title
+  * get the page id of a page through its title
+  * */
+  function get_page_id_with_title($title) {
+    $page = get_page_by_title($title);
+    return $page->ID;
+    }
 ?>
