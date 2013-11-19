@@ -1,0 +1,68 @@
+/*
+Theme Name: SMOOTH FM
+Theme URI: http://www.ennovatenigeria.com/
+Description: Website template for Smooth FM 
+Version: 1.0
+Author: Olanipekun Femi, Ennovate Nigeria
+Author URI: http://www.ennovatenigeria.com
+Tags: Radio Station, Ennovate Nigeria
+*/
+
+
+
+/* @group Comments */
+
+/* Needs RWD Check */
+
+#respond {margin:0px;float:left;border-top: 1px solid #dbdbdb;padding-top: 10px;width: 100%;}
+
+#respond input[type=text] { max-width:300px; margin-right:20px; }
+#respond textarea {max-width:550px; height:120px; padding:10px; }
+#comments { float:left; margin:0;}
+
+#comments {border: 0;width: 100%;}
+
+
+#comments h2 {font-size: 1.5em;display: block;border-bottom: 1px solid #d6d6d6;font-weight: bold;}
+#comments h6 {font-family: "Times New Roman", Times, serif;letter-spacing: normal;text-transform: uppercase;margin: 10px 0px;}
+
+#comments .comment-meta { margin:0px 0px 20px 0px; display:block;}
+#comments .commentlist { margin:0px; float:left; list-style:none; width:100%;  }
+#comments .commentlist ul { list-style:none; margin:0; padding:0; clear:both; }
+#comments .commentlist li {margin:0; padding:0;  display:block;}
+
+
+
+body.page-template-onecolumn-page-php #comments .commentlist li .comment-meta {}
+
+#comments .commentlist li li { margin:0 0 20px 25px; }
+#comments .commentlist li li .comment-meta{ max-width:445px; }
+#comments .commentlist li li li {margin:0 0 20px 25px;}
+#comments .commentlist li li li .comment-meta{ max-width:420px; }
+#comments .commentlist li li li li {margin:0 0 20px 25px; }
+#comments .commentlist li li li li .comment-meta{ max-width:395px; }
+#comments .commentlist li li li li li {margin:0 0 20px 25px;}
+#comments .commentlist li li li li li .comment-meta{ max-width:370px; }
+
+#comments .single-comment { margin-bottom:20px; }
+#comments .comment-author { float:left; margin: 0px 10px 6px 0px; display:inline; max-width:50px; }
+#comments .comment-author cite { clear:both; font-weight:bold; }
+
+#comments .vcard {
+	float:left;
+	clear:both;
+	display:block;
+	max-width:100px;
+	min-height: 100px;
+	padding:20px 0;
+}
+#comments .vcard img.avatar {
+	border: 1px solid #eee;
+	padding: 2px;
+	background:#f4f4f4;
+}
+
+
+
+
+/* @end */

@@ -1,0 +1,1 @@
+  <?php query_posts('post_type=page&post_parent='.$post->ID.'&showposts=50&order=ASC&orderby=title'); ?>
